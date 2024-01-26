@@ -21,4 +21,6 @@ with DAG(
         task_id="task1", 
         bash_command="echo hello world, this is our first task")
     
-    
+# Backfilling a DAG (Running past DAG)
+# docker exec -it [docker-container-id] bash
+# airflow dags backfill dag_with_catchup_and_backfill_v02 -s 2024-01-18 -e 2024-01-20 [dag_id]

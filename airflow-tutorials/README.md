@@ -31,3 +31,13 @@ airflow scheduler -D
 
 ### Fetching Docker Compose File
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.1/docker-compose.yaml'
+
+### Connecting Postgresql
+check the port you want to use
+sudo lsof -i :[port]
+
+if the port in use
+sudo kill [PID]
+
+Then connect your port by modifying docker-compose.yaml file
+Then connect your postgresql database on PGAdmin4 or DBeaver
