@@ -1,0 +1,1 @@
+FROM * WHERE {{source('destination_db', 'actors')}}

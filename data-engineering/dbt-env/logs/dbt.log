@@ -1,0 +1,31 @@
+[0m12:13:49.875898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa27f692d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa27d992400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa27d9923a0>]}
+
+
+============================== 12:13:49.881252 | 0776b576-7bd9-4443-a80e-af4bcd71dfcf ==============================
+[0m12:13:49.881252 [info ] [MainThread]: Running with dbt=1.7.7
+[0m12:13:49.882115 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jaden/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:13:49.882964 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/jaden/.dbt')}
+[0m12:13:49.883599 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m12:14:16.732956 [debug] [MainThread]: Starter project path: /home/jaden/.cache/pypoetry/virtualenvs/dbt-env-SH-iAYeQ-py3.9/lib/python3.9/site-packages/dbt/include/starter_project
+[0m12:14:16.738985 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:14:16.739878 [info ] [MainThread]: Setting up your profile.
+[0m12:15:40.553328 [info ] [MainThread]: Profile custom_postgres written to /home/jaden/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m12:15:40.557126 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 110.69294, "process_user_time": 3.393536, "process_kernel_time": 0.164656, "process_mem_max_rss": "89868", "process_in_blocks": "109784", "process_out_blocks": "88"}
+[0m12:15:40.558521 [debug] [MainThread]: Command `dbt init` succeeded at 12:15:40.558211 after 110.70 seconds
+[0m12:15:40.559455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa27f692d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa281b52a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa27d992400>]}
+[0m12:15:40.560747 [debug] [MainThread]: Flushing usage events

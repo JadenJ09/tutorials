@@ -1,0 +1,1 @@
+Docker / PostgreSQL / Poetry / DBT / Airflow / 
