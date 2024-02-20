@@ -13,7 +13,7 @@ class Dinner {
     
     Dinner noodlesDinner = new Dinner();
     // Add your code here:
-    Noodle biangBiang = new BiangBiang();
+    Noodle biangBiang = new BiangBiang(); // a child class object can be assigned to a parent class reference
 
     noodlesDinner.makeNoodles(biangBiang, "soy sauce and chili oil");
     

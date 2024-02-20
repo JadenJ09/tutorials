@@ -19,7 +19,7 @@ class NoodleRestaurant {
       NoodleRestaurant customer2 = new NoodleRestaurant("Maritza");
   
       // Add your code here
-      customer1.order(pho);
+      customer1.order(pho); // a child class object can be passed to a method that accepts a parent class object  
       customer2.order(ramen);
   
   
