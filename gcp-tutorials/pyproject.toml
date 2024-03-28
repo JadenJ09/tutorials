@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gcp-tut"
+version = "0.1.0"
+description = "gcp-tutorials"
+authors = ["jaden <jaden.b.jeong@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
